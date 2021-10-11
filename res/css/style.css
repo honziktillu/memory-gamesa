@@ -1,0 +1,93 @@
+* {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+html, body, .game-wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);
+}
+
+.game-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-part {
+    display: block;
+    overflow: auto;
+}
+
+#game-color-red {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-top-left-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 1s background-color ease;
+}
+
+#game-color-green {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-top-right-radius: 100%;
+    background-color: rgba(0, 255, 0, 0.2);
+    cursor: pointer;
+    transition: 1s background-color ease;
+}
+
+#game-color-blue {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 100%;
+    background-color: rgba(0, 0, 255, 0.2);
+    cursor: pointer;
+    transition: 1s background-color ease;
+}
+
+#game-color-yellow {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 100%;
+    background-color: rgba(229, 255, 0, 0.2);
+    cursor: pointer;
+    transition: 1s background-color ease;
+}
+
+#button {
+    display: table;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+#counter {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+#status {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
